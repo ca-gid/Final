@@ -13,7 +13,7 @@
         </div>
         <asp:Button ID="Button1" runat="server" Text="Button" PostBackUrl="https://108111103.github.io/test_UT1/" /><br>
         <asp:HyperLink ID="HyperLink1" runat="server">HyperLink</asp:HyperLink><br>
-        <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="https://oit365-my.sharepoint.com/:u:/g/personal/108111103_mail_aeust_edu_tw/EVUsVf9C2ghDqNWUooFT52IBu7GoHf0dvIfFNHce2lK_gQ?e=8vP7WK">LinkButton</asp:LinkButton>
+        <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="C:\Users\Leo\source\repos\Final\Final\UT1\index.html">LinkButton</asp:LinkButton>
     </form>
 </body>
 </html>

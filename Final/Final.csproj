@@ -68,8 +68,37 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Final1.aspx" />
-    <Content Include="Cryfather.css" />
+    <Content Include="friut\Build\UnityLoader.js" />
+    <Content Include="friut\fruit.aspx" />
+    <Content Include="friut\index.html" />
+    <Content Include="friut\TemplateData\favicon.ico" />
+    <Content Include="friut\TemplateData\fullscreen.png" />
+    <Content Include="friut\TemplateData\progressEmpty.Dark.png" />
+    <Content Include="friut\TemplateData\progressEmpty.Light.png" />
+    <Content Include="friut\TemplateData\progressFull.Dark.png" />
+    <Content Include="friut\TemplateData\progressFull.Light.png" />
+    <Content Include="friut\TemplateData\progressLogo.Dark.png" />
+    <Content Include="friut\TemplateData\progressLogo.Light.png" />
+    <Content Include="friut\TemplateData\style.css" />
+    <Content Include="friut\TemplateData\UnityProgress.js" />
+    <Content Include="friut\TemplateData\webgl-logo.png" />
     <Content Include="Global.asax" />
+    <Content Include="Style1.css" />
+    <Content Include="test.aspx" />
+    <Content Include="UT1\Build\UnityLoader.js" />
+    <Content Include="UT1\index.html" />
+    <Content Include="UT1\TemplateData\favicon.ico" />
+    <Content Include="UT1\TemplateData\fullscreen.png" />
+    <Content Include="UT1\TemplateData\progressEmpty.Dark.png" />
+    <Content Include="UT1\TemplateData\progressEmpty.Light.png" />
+    <Content Include="UT1\TemplateData\progressFull.Dark.png" />
+    <Content Include="UT1\TemplateData\progressFull.Light.png" />
+    <Content Include="UT1\TemplateData\progressLogo.Dark.png" />
+    <Content Include="UT1\TemplateData\progressLogo.Light.png" />
+    <Content Include="UT1\TemplateData\style.css" />
+    <Content Include="UT1\TemplateData\UnityProgress.js" />
+    <Content Include="UT1\TemplateData\webgl-logo.png" />
+    <Content Include="UT1\unity1.aspx" />
     <Content Include="Web.config" />
     <Content Include="Final.aspx" />
   </ItemGroup>
@@ -80,6 +109,13 @@
     </Compile>
     <Compile Include="Final1.aspx.designer.cs">
       <DependentUpon>Final1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="friut\fruit.aspx.cs">
+      <DependentUpon>fruit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="friut\fruit.aspx.designer.cs">
+      <DependentUpon>fruit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -92,9 +128,31 @@
     <Compile Include="Final.aspx.designer.cs">
       <DependentUpon>Final.aspx</DependentUpon>
     </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UT1\unity1.aspx.cs">
+      <DependentUpon>unity1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UT1\unity1.aspx.designer.cs">
+      <DependentUpon>unity1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="friut\Build\friut.data.unityweb" />
+    <Content Include="friut\Build\friut.json" />
+    <Content Include="friut\Build\friut.wasm.code.unityweb" />
+    <Content Include="friut\Build\friut.wasm.framework.unityweb" />
     <None Include="packages.config" />
+    <Content Include="UT1\Build\UT1.data.unityweb" />
+    <Content Include="UT1\Build\UT1.json" />
+    <Content Include="UT1\Build\UT1.wasm.code.unityweb" />
+    <Content Include="UT1\Build\UT1.wasm.framework.unityweb" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

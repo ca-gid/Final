@@ -9,6 +9,7 @@
 
 .typesetting {
     display: inline-block;
+    padding-top:200px;
     width:250px;
 }
 
@@ -16,4 +17,8 @@
     color: gray;
     text-align: center;
     margin-bottom: 50px;
+}
+.button {
+    color:black;
+    padding-top:100px;
 }

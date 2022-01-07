@@ -11,16 +11,19 @@
 <body>
     <form id="form1" runat="server" class="row">
         <div class="typesetting col-md-4 col-12">
-            <asp:ImageButton ID="ImageButton1" runat="server" Height="150px" Width="150px" class="lkbutton"/></br>
-            <asp:LinkButton ID="LinkButton1" runat="server" class="lkbutton" OnClick="LinkButton1_Click">LinkButton</asp:LinkButton>
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="150px" Width="150px" class="lkbutton" PostBackUrl="~/UT1/unity1.aspx"/><br/>
+            <asp:LinkButton ID="LinkButton1" runat="server" class="lkbutton" OnClick="LinkButton1_Click" PostBackUrl="~/UT1/unity1.aspx">Super Mario</asp:LinkButton>
         </div>
         <div class="typesetting col-md-4 col-12">
-            <asp:ImageButton ID="ImageButton2" runat="server" Height="150px" Width="150px" class="lkbutton"/></br>
-            <asp:LinkButton ID="LinkButton2" runat="server" class="lkbutton">LinkButton</asp:LinkButton>
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="150px" Width="150px" class="lkbutton" PostBackUrl="~/friut/fruit.aspx.cs"/><br/>
+            <asp:LinkButton ID="LinkButton2" runat="server" class="lkbutton" PostBackUrl="~/friut/fruit.aspx">Fruit Rain</asp:LinkButton>
         </div>
         <div class="typesetting col-md-4 col-12">
-            <asp:ImageButton ID="ImageButton3" runat="server" Height="150px" Width="150px" class="lkbutton"/></br>
-            <asp:LinkButton ID="LinkButton3" runat="server" class="lkbutton">LinkButton</asp:LinkButton>
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="150px" Width="150px" class="lkbutton"/><br/>
+            <asp:LinkButton ID="LinkButton3" runat="server" class="lkbutton">GoDownStairs</asp:LinkButton>
+        </div>
+        <div class="button">
+            <asp:LinkButton ID="LinkButton4" runat="server" class="button" OnClick="LinkButton4_Click" PostBackUrl="########">遊戲回饋評價</asp:LinkButton>
         </div>
     </form>
 </body>

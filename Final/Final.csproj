@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="GoDown\Build\UnityLoader.js" />
+    <Content Include="GoDown\eeee.aspx" />
     <Content Include="GoDown\index.html" />
     <Content Include="GoDown\TemplateData\favicon.ico" />
     <Content Include="GoDown\TemplateData\fullscreen.png" />
@@ -86,6 +87,13 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GoDown\eeee.aspx.cs">
+      <DependentUpon>eeee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoDown\eeee.aspx.designer.cs">
+      <DependentUpon>eeee.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

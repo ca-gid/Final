@@ -6,22 +6,22 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+<link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        <asp:LinkButton ID="LinkButton1" runat="server">LinkButton</asp:LinkButton>
-            <asp:ImageButton ID="ImageButton1" runat="server" Height="150px" Width="150px" />
+    <form id="form1" runat="server" class="row">
+        <div class="typesetting col-md-4 col-12">
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="150px" Width="150px" class="lkbutton"/></br>
+            <asp:LinkButton ID="LinkButton1" runat="server" class="lkbutton">LinkButton</asp:LinkButton>
         </div>
-        <div>
-        <asp:LinkButton ID="LinkButton2" runat="server">LinkButton</asp:LinkButton>
-            <asp:ImageButton ID="ImageButton2" runat="server" Height="150px" Width="150px" />
+        <div class="typesetting col-md-4 col-12">
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="150px" Width="150px" class="lkbutton"/></br>
+            <asp:LinkButton ID="LinkButton2" runat="server" class="lkbutton">LinkButton</asp:LinkButton>
         </div>
-        <div>
-        <asp:LinkButton ID="LinkButton3" runat="server">LinkButton</asp:LinkButton>
-            <asp:ImageButton ID="ImageButton3" runat="server" Height="150px" Width="150px" />
+        <div class="typesetting col-md-4 col-12">
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="150px" Width="150px" class="lkbutton"/></br>
+            <asp:LinkButton ID="LinkButton3" runat="server" class="lkbutton">LinkButton</asp:LinkButton>
         </div>
-
     </form>
 </body>
 </html>

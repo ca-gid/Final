@@ -42,6 +42,15 @@ namespace Final
         protected global::System.Web.UI.WebControls.Label lb_Id;
 
         /// <summary>
+        /// RadioButtonList1 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+
+        /// <summary>
         /// Label2 控制項。
         /// </summary>
         /// <remarks>
@@ -103,14 +112,5 @@ namespace Final
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_Submit;
-
-        /// <summary>
-        /// lb_Msg 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_Msg;
     }
 }

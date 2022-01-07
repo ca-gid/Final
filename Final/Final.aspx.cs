@@ -44,11 +44,15 @@ namespace Final
             
             ListItem o_li;           
         }
+        //protected void btn_Submit_Click(object sender, EventArgs e)
+        //{
+        //    lb_Msg.Text = lb_Id.Text + "<br />" +
+        //        RadioButtonList1.SelectedValue + "<br />" +
+        //        tb_Number.Text + "<br />" +
+        //        rd_Des.SelectedValue + "<br />" +
+        //        tb_Des.Text + "<br />"
+        //        ;
+        //}
 
-
-        protected void btn_Submit_Click(object sender, EventArgs e)
-        {
-           
-        }
     }
 }

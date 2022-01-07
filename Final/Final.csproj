@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Another.aspx" />
+    <Content Include="Cryfather.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Final.aspx" />

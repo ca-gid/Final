@@ -35,7 +35,7 @@
             </asp:RadioButtonList>
             <asp:TextBox ID="tb_Des" runat="server" Width="400px" Visible="False"></asp:TextBox>
             </br>
-            <asp:Button ID="btn_Submit" runat="server" Text="送出"  PostBackUrl="~/Another.aspx" />
+            <asp:Button ID="btn_Submit" runat="server" Text="送出"  PostBackUrl="~/Final1.aspx" />
             </br>
             
             

@@ -73,8 +73,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Build\UnityLoader.js" />
-    <Content Include="Build\UnityLoader1.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -91,6 +89,19 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="friut\Build\UnityLoader.js" />
+    <Content Include="friut\index.html" />
+    <Content Include="friut\TemplateData\favicon.ico" />
+    <Content Include="friut\TemplateData\fullscreen.png" />
+    <Content Include="friut\TemplateData\progressEmpty.Dark.png" />
+    <Content Include="friut\TemplateData\progressEmpty.Light.png" />
+    <Content Include="friut\TemplateData\progressFull.Dark.png" />
+    <Content Include="friut\TemplateData\progressFull.Light.png" />
+    <Content Include="friut\TemplateData\progressLogo.Dark.png" />
+    <Content Include="friut\TemplateData\progressLogo.Light.png" />
+    <Content Include="friut\TemplateData\style.css" />
+    <Content Include="friut\TemplateData\UnityProgress.js" />
+    <Content Include="friut\TemplateData\webgl-logo.png" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -113,7 +124,6 @@
     <Content Include="test.aspx" />
     <Content Include="UT1.aspx" />
     <Content Include="UT2.aspx" />
-    <Content Include="UTtest\index.html" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -168,14 +178,10 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="Build\fruit.data.unityweb" />
-    <Content Include="Build\fruit.json" />
-    <Content Include="Build\fruit.wasm.code.unityweb" />
-    <Content Include="Build\fruit.wasm.framework.unityweb" />
-    <Content Include="Build\UT_html1.data.unityweb" />
-    <Content Include="Build\UT_html1.json" />
-    <Content Include="Build\UT_html1.wasm.code.unityweb" />
-    <Content Include="Build\UT_html1.wasm.framework.unityweb" />
+    <Content Include="friut\Build\friut.data.unityweb" />
+    <Content Include="friut\Build\friut.json" />
+    <Content Include="friut\Build\friut.wasm.code.unityweb" />
+    <Content Include="friut\Build\friut.wasm.framework.unityweb" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

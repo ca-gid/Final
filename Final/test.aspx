@@ -12,7 +12,7 @@
     <form id="form1" runat="server" class="row">
         <div class="typesetting col-md-4 col-12">
             <asp:ImageButton ID="ImageButton1" runat="server" Height="150px" Width="150px" class="lkbutton"/></br>
-            <asp:LinkButton ID="LinkButton1" runat="server" class="lkbutton">LinkButton</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton1" runat="server" class="lkbutton" OnClick="LinkButton1_Click">LinkButton</asp:LinkButton>
         </div>
         <div class="typesetting col-md-4 col-12">
             <asp:ImageButton ID="ImageButton2" runat="server" Height="150px" Width="150px" class="lkbutton"/></br>

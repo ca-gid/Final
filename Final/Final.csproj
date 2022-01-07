@@ -67,19 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Final1.aspx" />
+    <Content Include="Another.aspx" />
     <Content Include="Cryfather.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Final.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Final1.aspx.cs">
-      <DependentUpon>Final1.aspx</DependentUpon>
+    <Compile Include="Another.aspx.cs">
+      <DependentUpon>Another.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Final1.aspx.designer.cs">
-      <DependentUpon>Final1.aspx</DependentUpon>
+    <Compile Include="Another.aspx.designer.cs">
+      <DependentUpon>Another.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

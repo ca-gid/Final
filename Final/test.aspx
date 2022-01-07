@@ -10,10 +10,18 @@
 <body>
     <form id="form1" runat="server">
         <div>
+        <asp:LinkButton ID="LinkButton1" runat="server">LinkButton</asp:LinkButton>
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="150px" Width="150px" />
         </div>
-        <asp:Button ID="Button1" runat="server" Text="Button" PostBackUrl="https://108111103.github.io/test_UT1/" /><br>
-        <asp:HyperLink ID="HyperLink1" runat="server">HyperLink</asp:HyperLink><br>
-        <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="C:\Users\Leo\source\repos\Final\Final\UT1\index.html">LinkButton</asp:LinkButton>
+        <div>
+        <asp:LinkButton ID="LinkButton2" runat="server">LinkButton</asp:LinkButton>
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="150px" Width="150px" />
+        </div>
+        <div>
+        <asp:LinkButton ID="LinkButton3" runat="server">LinkButton</asp:LinkButton>
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="150px" Width="150px" />
+        </div>
+
     </form>
 </body>
 </html>

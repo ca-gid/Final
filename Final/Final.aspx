@@ -10,7 +10,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="a">
+            
             <h1>遊戲回饋評價</h1>
             <asp:Label ID="Label1" runat="server" Text="表單編號" Font-Size="X-Large"></asp:Label>
             <asp:Label ID="lb_Id" runat="server" Text=""></asp:Label>
